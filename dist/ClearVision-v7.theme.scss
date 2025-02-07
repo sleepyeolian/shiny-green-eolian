@@ -1,0 +1,21 @@
+@use "start" as *;
+/**
+ * @name ClearVision
+ * @author #{$author}
+ * @version #{$version}
+ * @description #{$desc} #{$desc_generic}
+ * @source #{$src}
+ * @website #{$website}
+ * @invite #{$invite}
+ */
+
+/* Credits to Zerthox for making the original theme. */
+
+/* IMPORT CSS */
+@import url("#{$website}/ClearVision-v7/#{$main_import}");
+@import url("#{$website}/ClearVision-v7/#{$bd_import}");
+@import url("#{$website}/ClearVision-v7/#{$vc_import}");
+
+/* SETTINGS */
+:root {
+}

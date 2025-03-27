@@ -54,7 +54,6 @@
 /* LIGHT THEME */
 :is(.theme-light, .theme-dark .theme-light) {
   --background-shading: rgba(252, 252, 252, 0.3);
-  --background-shading-percent: 100%;
   --card-shading: rgba(252, 252, 252, 0.3);
   --popout-shading: rgba(252, 252, 252, 0.7);
   --modal-shading: rgba(252, 252, 252, 0.5);
@@ -66,7 +65,6 @@
 /* ASH THEME */
 :is(.theme-dark, .theme-light .theme-dark) {
   --background-shading: rgba(0, 0, 0, 0.4);
-  --background-shading-percent: 100%;
   --card-shading: rgba(0, 0, 0, 0.2);
   --popout-shading: rgba(0, 0, 0, 0.6);
   --modal-shading: rgba(0, 0, 0, 0.4);
@@ -78,7 +76,6 @@
 /* DARK THEME */
 :is(.theme-darker, .theme-light .theme-darker) {
   --background-shading: rgba(0, 0, 0, 0.6);
-  --background-shading-percent: 100%;
   --card-shading: rgba(0, 0, 0, 0.3);
   --popout-shading: rgba(0, 0, 0, 0.7);
   --modal-shading: rgba(0, 0, 0, 0.5);
@@ -90,7 +87,6 @@
 /* ONYX THEME */
 :is(.theme-midnight, .theme-light .theme-midnight) {
   --background-shading: rgba(0, 0, 0, 0.8);
-  --background-shading-percent: 100%;
   --card-shading: rgba(0, 0, 0, 0.4);
   --popout-shading: rgba(0, 0, 0, 0.8);
   --modal-shading: rgba(0, 0, 0, 0.6);

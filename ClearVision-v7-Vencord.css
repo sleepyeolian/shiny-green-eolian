@@ -25,19 +25,19 @@
   --offline-color: #808080;
   /* APP BACKGROUND */
   --background-shading-percent: 100%;
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+  --background-image: url(https://i.imgur.com/CZCgHBN.gif);
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(--background-image);
+  --user-popout-image: var(https://64.media.tumblr.com/96e508cb07bb3ca176a3fc9f8bf7c785/10f7fa0d44e7483d-f7/s500x750/7a0f6bbf20b9f8dffbe70c48e317bd2d7e10f5e8.gif);
   --user-popout-attachment: var(--background-attachment);
   --user-popout-filter: var(--background-filter);
   /* USER MODAL BACKGROUND */
-  --user-modal-image: var(--background-image);
+  --user-modal-image: var(https://64.media.tumblr.com/356628bee20a3bd8413bafee4e0dc989/24f1ed1a4c5ef2f8-f5/s250x400/9a4b80ba853bef7ce37e07c2fb713d4ca389f861.gif);
   --user-modal-attachment: var(--background-attachment);
   --user-modal-filter: var(--background-filter);
   /* HOME ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  --home-icon: url(https://i.imgur.com/iKNMt3b.gif);
   /* FONTS */
   --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;

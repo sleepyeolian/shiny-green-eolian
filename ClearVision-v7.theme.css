@@ -15,8 +15,8 @@
 :root {
   /* ACCENT COLORS */
   --main-color: #93D9BA;
-  --hover-color: #1e63b3;
-  --success-color: #43b581;
+  --hover-color: #2D994C;
+  --success-color: #CAD97E;
   --danger-color: #982929;
   /* STATUS COLORS */
   --online-color: #43b581;
@@ -47,7 +47,7 @@
 /* THEME SPECIFIC SHADING */
 /* LIGHT THEME */
 :is(.theme-light, .theme-dark .theme-light) {
-  --background-shading: rgba(252, 252, 252, 0.3);
+  --background-shading: rgba(98,168,135,0.651);
   --card-shading: rgba(252, 252, 252, 0.3);
   --popout-shading: rgba(252, 252, 252, 0.7);
   --modal-shading: rgba(252, 252, 252, 0.5);
@@ -58,7 +58,7 @@
 
 /* ASH THEME */
 :is(.theme-dark, .theme-light .theme-dark) {
-  --background-shading: rgba(0, 0, 0, 0.4);
+  --background-shading: rgba(98,168,135,0.651);
   --card-shading: rgba(0, 0, 0, 0.2);
   --popout-shading: rgba(0, 0, 0, 0.6);
   --modal-shading: rgba(0, 0, 0, 0.4);
@@ -69,7 +69,7 @@
 
 /* DARK THEME */
 :is(.theme-darker, .theme-light .theme-darker) {
-  --background-shading: rgba(0, 0, 0, 0.6);
+  --background-shading: rgba(98,168,135,0.651);
   --card-shading: rgba(0, 0, 0, 0.3);
   --popout-shading: rgba(0, 0, 0, 0.7);
   --modal-shading: rgba(0, 0, 0, 0.5);
@@ -80,7 +80,7 @@
 
 /* ONYX THEME */
 :is(.theme-midnight, .theme-light .theme-midnight) {
-  --background-shading: rgba(0, 0, 0, 0.8);
+  --background-shading: rgba(98,168,135,0.651);
   --card-shading: rgba(0, 0, 0, 0.4);
   --popout-shading: rgba(0, 0, 0, 0.8);
   --modal-shading: rgba(0, 0, 0, 0.6);

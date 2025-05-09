@@ -24,7 +24,7 @@
   --streaming-color: #593695;
   --offline-color: #808080;
   /* APP BACKGROUND */
-  --background-shading-percent: 70%;
+  --background-shading-percent: 40%;
   --background-image: url(https://i.imgur.com/CZCgHBN.gif);
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
